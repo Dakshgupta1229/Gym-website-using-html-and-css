@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="favicon.ico" class="favicon">
+    <link rel="stylesheet" href="gymwebsite.css" class="css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul>
+                <li><a href="">HOME</a></li>s
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <div class="searchbar"><input placeholder="Search" type="text" class="text"></div>
+                <div class="searchsymbol">&#128269;</div>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>THE BEST FITNESS</h1>
+        <h3>STUDIO IN TOWN</h3>
+        <pre>   “If you want something you've never had, you must be willing to do something
+    you've never done.” “The body achieves what the mind believes.”
+    “Once you are exercising regularly, the hardest thing is to stop it.”
+    “If you don't make time for exercise, you'll probably have to 
+    make time for illness.”</pre>
+
+<button class="btn">JOIN US NOW</button>
+
+    </main>
+
+    <main class="form">
+        <h1>GYM REGISTRATION FORM</h1>
+        <P>FILL OUT THIS DETAILS</P>
+        <hr>
+        <fieldset>
+            <form action="form.php">
+                <label for="first-name">Enter your Name: </label><br>
+                <input type="text" class="first-name" id="first-name" name="first-name"><br>
+                <label for="email">Enter your Email Address</label><br>
+                <input type="text" class="email" id="email" name="email"><br>
+                <label for="membership start date">Membership start date</label><br>
+                <input type="date" class="date" id="date"><br>
+                <label for="Membership Duration">Membership Duration</label><br>
+                <select name="duration" id="duration"><br>
+                    <option value="1">select(duration)</option>
+                    <option value="2">1 Month</option>
+                    <option value="3">3 Month</option>
+                    <option value="4">6 Month</option>
+                    <option value="4">1 Year</option>
+                    <option value="4">Lifetime</option>
+                </select><br>
+                <label for="medical-problems">Additional Medical Notes:</label><br>
+                <textarea name="problems" id="nedical-problems" cols="30" rows="5" placeholder="Please indicate any pre-existing medical conditions"></textarea><br>
+                <input type="submit" class="submitbutton">
+
+            </form>
+        </fieldset>
+    </main>
+    
+    <footer>
+        <p class="center">Copyright &copy; GYM FITNESS Pvt Ltd 2023 All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
